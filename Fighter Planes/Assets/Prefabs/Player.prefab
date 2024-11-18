@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403540824184816553}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.23, y: -2.14, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4491918453427832624}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5000755941750438086
 SpriteRenderer:
@@ -134,7 +134,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4901375678046123520}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
@@ -143,6 +142,7 @@ Transform:
   - {fileID: 3868570334725065419}
   - {fileID: 5807651519608763229}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3244672629010844294
 SpriteRenderer:
@@ -212,6 +212,7 @@ MonoBehaviour:
   bullet: {fileID: 4624396946603246076, guid: 36ec8713435833146be89e006e57731e, type: 3}
   explosion: {fileID: 8415986595762990472, guid: 749fae09459950b45abcdeb429caff65, type: 3}
   thruster: {fileID: 403540824184816553}
+  shield: {fileID: 6538400108041093207}
 --- !u!58 &4347041578663424494
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -395,13 +396,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6538400108041093207}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.21, y: 0.21, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4491918453427832624}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6882795135652938474
 SpriteRenderer:
